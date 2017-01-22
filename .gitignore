@@ -53,6 +53,6 @@ fastlane/Preview.html
 fastlane/screenshots
 
 index.ios.js
-index.andriod.js
+index.android.js
 app.js
 app/js/
