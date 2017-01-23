@@ -3,6 +3,7 @@ RN = require("react-native")
 styles = require("./app/js/styles")() |> RN.StyleSheet.create(_)
 
 RNGK = require("react-game-kit/native")
+Game = require("./app/js/index").default
 
 RnGkExample = React.createClass({
   getInitialState: -> require("./app/js/main")(this),
@@ -14,4 +15,4 @@ RnGkExample = React.createClass({
     |> React.createElement( RNGK.Loop, {}, _)
 })
 
-RN.AppRegistry.registerComponent('RnGkExample', (-> RnGkExample))
+RN.AppRegistry.registerComponent('RnGkExample', (-> Game))

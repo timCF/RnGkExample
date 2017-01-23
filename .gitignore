@@ -55,4 +55,4 @@ fastlane/screenshots
 index.ios.js
 index.android.js
 app.js
-app/js/
+# app/js/
